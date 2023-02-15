@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/medias-queries.css">
     <title>Cadastro</title>
 </head>
 
@@ -28,8 +29,8 @@
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@examplo.com">
         </div>
 
-        <div class="mb-3 row">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+        <div class="mb-3">
+            <label for="inputPassword" class="form-label">Password</label>
             <div class="col-sm-10">
                 <input type="password" class="form-control" id="inputPassword">
             </div>
@@ -38,7 +39,11 @@
         <input id="" type="submit" value="Enviar">
         </div>
   
-    
+
+        <div class="photo-logo">
+            <img src="img/logoofc.png" alt="" height="100%" width="100%">
+        </div>
+
 </form>    
 
 
