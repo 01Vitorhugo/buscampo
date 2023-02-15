@@ -12,10 +12,10 @@ h3{
     padding-top: 10px;
 }
 form{
-    height: 700px;
     width: 100%;
     display: block;
-    /* background-color: black;   */
+    /* background-color: black;*/
+    overflow: hidden;
 }
 .input-group{
     padding-top: 20px;
@@ -42,6 +42,11 @@ input[type=submit]{
     height: 50px;
     display: flex;
     justify-content: center;
+}
+.photo-logo{
+    height: 117px;
+    width: 100%;
+    /* background-color: black;  */
 }
 
 
