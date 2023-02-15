@@ -11,16 +11,40 @@
 </head>
 
 <body>
-    <div class="formu-cad">
-        <div class="name-formu">
-            <h2>Cadastro Pessoal</h2>
+
+<form action="" method="post" enctype="multipart/form-data">
+   
+        <h3>Cadastro Pessoal</h3>
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Digite seu nome">
         </div>
-        <div class="formu">
-            
-        
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Digite seu sobrenome">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@examplo.com">
         </div>
 
-    </div>
+        <div class="mb-3 row">
+            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+            <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword">
+            </div>
+        </div>
+        <div class="input-sub">
+        <input id="" type="submit" value="Enviar">
+        </div>
+  
+    
+</form>    
+
+
+
+
+
 
 
 
