@@ -1,6 +1,8 @@
 @media (max-width: 1920px){
-    h3{
-        font-size: 60px;
+    form h3{
+        font-size: 35px;
+        height: 100px;
+        padding-top: 30px;
     }
     .form-label{
         font-size: 30px;
@@ -36,6 +38,33 @@
         width: 50%;
         height: 100%;
 
+    }
+}
+@media (max-width: 1382px){
+    form h3{
+        font-size: 35px;
+        height: 100px;
+        padding-top: 30px;
+    }
+    .mb-3 label{
+        font-size: 20px;
+    }
+    .mb-3 input{
+        font-size: 15px;
+        /* background-color: black; */
+        height: 50px;
+    }
+    input[type=submit]{
+        width: 10%;
+        height: 50px;
+        font-size: 25px;
+    }
+    .photo-logo{
+        /* background-color: aqua; */
+        height: 200px;
+    }
+    .photo-logo img{
+        height: 250px;
     }
 }
 @media (max-width: 1280px){
