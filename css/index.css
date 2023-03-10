@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    /* background-color: black; */
+}
+.img-gif{
+    /* background-color: blue;  */
+    height: 600px;
+    width: 100%;
+    margin-top: 40px;
+}
+.frase-1{
+    background-color: rgba(0, 0, 255, 0.233);
+    height: 200px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frase-1 h1{
+    font-size: 50px;
+    color: rgb(2, 95, 2);
+}
+.topicos-index{
+    /* background-color: blue; */
+    height: 400px;
+    width: 100%;
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-between;
+}
+.topicos-index #topicos{
+    height: 100%;
+    width: 25%;
+}
+.topicos-index .topico-1{
+   padding-left: 3%;
+}
+.topicos-index .topico-2{
+    /* background-color: rgb(3, 192, 192); */
+} 
+.topico-2 .icons-lupa{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons-lupa img{
+    
+}
+.topico-2 h2{
+    font-size: 35px;
+    text-align: center;
+}
+.topicos-index .topico-3{
+    background-color: rgb(174, 184, 39);
+}
+.topicos-index .topico-4{
+    background-color: rgb(26, 211, 66);
+}
