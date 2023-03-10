@@ -15,7 +15,7 @@
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-        <img src="img/logoofc.png" alt="" height="80px" width="200px">
+        <img src="img/logoofc.png" alt="" height="100px" width="250px">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -35,16 +35,12 @@
           <a class="nav-link" href="#">Divulgue seu local</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
+        <span class="nav-login"><a class="nav-link" href="#">Login</a></span>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-
-<div class="gif">
- <img src="img/gif_futebol.gif" alt="" width="100%" height="100%"> 
-</div>
 
 
 
