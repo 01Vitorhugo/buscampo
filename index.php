@@ -27,14 +27,20 @@ include('menu.php');
             <img src="img/cartoon-2.png" alt="">
         </div>
         <div class="topico-2" id="topicos">
-            <div class="icons-lupa">
-                <img src="img/icon-lupa.png" alt="">
+            <div class="icon-campo">
+                <img src="img/icon-campo.png" alt="">
             </div>
-            <h2><i>Os melhores lugares</i></h2>
+            <h2><i>Os melhores lugares estão aqui</i></h2>
+            <p>Encontre a quadra que se encaixa em suas preferências.</p>
 
         </div>
-        <div class="topico-3" id="topicos"></div>
-        <div class="topico-4" id="topicos"></div>
+        <div class="topico-3" id="topicos">
+        <div class="icon-lupa">
+                <img src="img/icon-lupa.png" alt="">
+            </div>
+            <h2><i>Os melhores lugares estão aqui</i></h2>
+            <p>Encontre a quadra que se encaixa em suas preferências.</p>
+        </div>
     </div>
 
 </body>
