@@ -88,4 +88,36 @@ body{
     font-size: 25px;
     padding-top: 15px;
 }
+footer{
+   height: 230px;
+   width: 100%;
+   background-color: rgba(85, 17, 17, 0.212);
+   margin-top: 70px;
+   
+}
+footer .pag-footer{
+    text-align: center;
+    padding-top: 30px;
+    /* background-color: rgb(36, 146, 26); */
+    
+}
+footer .footer-topicos{
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.719);  */
+    height: 130px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+footer .img-footer{
+    width: 230px;
+    height: 100px;
+    /* background-color: aqua; */
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 70px;
+
+}
+
 
