@@ -43,6 +43,65 @@ include('menu.php');
     </div>
   </div>
 
+  <div class="conteudo">
+    <div class="conteudo-1">
+      <h1>Encontre o melhor lugar</h1>
+      <h1 class="txt-con">em apenas alguns cliques!</h1>
+      <p>
+        <a href="">Modalidades</a>
+      </p>
+    </div>
+    <div class="conteudo-2">
+      <img src="img/cartoon-4.png" alt="" width="50%" height="100%">
+    </div>
+  </div>
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1500">
+      <img src="img/basquete.png" class="d-block w-100" alt="" height="900px">
+    </div>
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="img/basqueter.jpg" class="d-block w-100" alt="" height="900px">
+    </div>
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="img/campo.jpg" class="d-block w-100" alt="" height="900px">
+    </div>
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="img/quada.jpg" class="d-block w-100" alt="" height="900px">
+    </div>
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="img/quadra2.jpg" class="d-block w-100" alt="" height="900px">
+    </div>
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="img/volei-futvolei.jpg" class="d-block w-100" alt="" height="900px">
+    </div>
+    <div class="carousel-item" data-bs-interval="1500">
+      <img src="img/volei-futvolei2.jpg" class="d-block w-100" alt="" height="900px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <footer>
     <div class="img-footer">
       <img src="img/logoofc.png" alt="" height="100%" width="100%">
@@ -53,12 +112,22 @@ include('menu.php');
       <p><a href="#">Termos de uso</a></p>
       <p><a href="#">Contato</a></p>
     </div>
+    <div class="redes-sociais">
+      <div class="instagram" id="redes">
+        <a href=""><img src="img/instagram.png" alt=""></a>
+      </div>
+      <div class="facebook" id="redes">
+        <a href=""><img src="img/facebook.png" alt=""></a>
+      </div>
+      <div class="youtube" id="redes">
+        <a href=""><img src="img/youtube.png" alt=""></a>
+      </div>
+    </div>
   </footer>
 
 
- 
-</body>
 
+</body>
 
 <script src="script.js"></script>
 
